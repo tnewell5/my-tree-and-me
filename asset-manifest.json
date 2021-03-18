@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/tnewell5/my-tree-and-me/static/css/main.294c528a.chunk.css",
-    "main.js": "/tnewell5/my-tree-and-me/static/js/main.d6852888.chunk.js",
-    "main.js.map": "/tnewell5/my-tree-and-me/static/js/main.d6852888.chunk.js.map",
-    "runtime-main.js": "/tnewell5/my-tree-and-me/static/js/runtime-main.39328e20.js",
-    "runtime-main.js.map": "/tnewell5/my-tree-and-me/static/js/runtime-main.39328e20.js.map",
-    "static/js/2.9668629c.chunk.js": "/tnewell5/my-tree-and-me/static/js/2.9668629c.chunk.js",
-    "static/js/2.9668629c.chunk.js.map": "/tnewell5/my-tree-and-me/static/js/2.9668629c.chunk.js.map",
-    "static/js/3.6a631201.chunk.js": "/tnewell5/my-tree-and-me/static/js/3.6a631201.chunk.js",
-    "static/js/3.6a631201.chunk.js.map": "/tnewell5/my-tree-and-me/static/js/3.6a631201.chunk.js.map",
-    "static/js/4.aefe3c33.chunk.js": "/tnewell5/my-tree-and-me/static/js/4.aefe3c33.chunk.js",
-    "static/js/4.aefe3c33.chunk.js.map": "/tnewell5/my-tree-and-me/static/js/4.aefe3c33.chunk.js.map",
-    "index.html": "/tnewell5/my-tree-and-me/index.html",
-    "static/css/main.294c528a.chunk.css.map": "/tnewell5/my-tree-and-me/static/css/main.294c528a.chunk.css.map",
-    "static/js/2.9668629c.chunk.js.LICENSE.txt": "/tnewell5/my-tree-and-me/static/js/2.9668629c.chunk.js.LICENSE.txt"
+    "main.css": "/my-tree-and-me/static/css/main.294c528a.chunk.css",
+    "main.js": "/my-tree-and-me/static/js/main.d6852888.chunk.js",
+    "main.js.map": "/my-tree-and-me/static/js/main.d6852888.chunk.js.map",
+    "runtime-main.js": "/my-tree-and-me/static/js/runtime-main.5c2b74a8.js",
+    "runtime-main.js.map": "/my-tree-and-me/static/js/runtime-main.5c2b74a8.js.map",
+    "static/js/2.9668629c.chunk.js": "/my-tree-and-me/static/js/2.9668629c.chunk.js",
+    "static/js/2.9668629c.chunk.js.map": "/my-tree-and-me/static/js/2.9668629c.chunk.js.map",
+    "static/js/3.6a631201.chunk.js": "/my-tree-and-me/static/js/3.6a631201.chunk.js",
+    "static/js/3.6a631201.chunk.js.map": "/my-tree-and-me/static/js/3.6a631201.chunk.js.map",
+    "static/js/4.aefe3c33.chunk.js": "/my-tree-and-me/static/js/4.aefe3c33.chunk.js",
+    "static/js/4.aefe3c33.chunk.js.map": "/my-tree-and-me/static/js/4.aefe3c33.chunk.js.map",
+    "index.html": "/my-tree-and-me/index.html",
+    "static/css/main.294c528a.chunk.css.map": "/my-tree-and-me/static/css/main.294c528a.chunk.css.map",
+    "static/js/2.9668629c.chunk.js.LICENSE.txt": "/my-tree-and-me/static/js/2.9668629c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.39328e20.js",
+    "static/js/runtime-main.5c2b74a8.js",
     "static/js/2.9668629c.chunk.js",
     "static/css/main.294c528a.chunk.css",
     "static/js/main.d6852888.chunk.js"
