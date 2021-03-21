@@ -1,7 +1,7 @@
 import "./App.css";
 import { EasybaseProvider } from "easybase-react";
 import ebconfig from "./ebconfig";
-import Graph from "./Components/Graph";
+import Graph2 from "./Components/Graph2";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">My Tree and Me</header>
       <EasybaseProvider ebconfig={ebconfig}>
         <div className="container">
-          <Graph />
+          <Graph2 />
         </div>
       </EasybaseProvider>
     </div>
