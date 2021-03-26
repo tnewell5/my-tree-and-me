@@ -1,9 +1,9 @@
 import * as dTree from "d3-dtree";
 import "./Graph.css";
-import { treeData } from "./helpers";
+import { hashToTree } from "./helpers";
 
 export const renderGraph = () => {
-  return dTree.init(treeData, {
+  return dTree.init([hashToTree(4)], {
     target: "#graph",
     debug: true,
     height: 800,

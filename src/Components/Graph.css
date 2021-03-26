@@ -11,25 +11,37 @@
   fill: none;
   stroke: #000;
 }
+
 .marriage {
   fill: none;
   stroke: black;
 }
+
 .man {
-  background-color: lightblue;
-  border-style: solid;
-  border-width: 1px;
+  background-color: aliceblue;
+  border: 1px solid gray;
+  border-radius: 5px;
   box-sizing: border-box;
 }
+
 .woman {
-  background-color: pink;
-  border-style: solid;
-  border-width: 1px;
+  background-color: mistyrose;
+  border: 1px solid gray;
+  border-radius: 5px;
   box-sizing: border-box;
 }
+
+.unknown {
+  background-color: ghostwhite;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
 .emphasis {
   font-style: italic;
 }
+
 p {
   padding: 0;
   margin: 0;

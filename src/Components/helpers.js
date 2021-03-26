@@ -1,4 +1,9 @@
-export const treeData = [
+import { data } from "./data";
+
+/*
+hashToTree builds up tree data structure for visualization:
+
+const treeData = [
   {
     name: "Michael R.",
     class: "man",
@@ -38,3 +43,23 @@ export const treeData = [
     ]
   }
 ];
+*/
+
+export const hashToTree = rootPersonId => {
+  const person = data[rootPersonId];
+
+  const tree = {
+    name: person.name,
+    class: person.class,
+    marriages: person.marriages.map(marriage => {
+      return {
+        spouse: marriage.spouse,
+        children: marriage.childrenIds.map(childId => {
+          return hashToTree(childId);
+        })
+      };
+    })
+  };
+
+  return tree;
+};
