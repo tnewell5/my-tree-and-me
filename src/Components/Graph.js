@@ -3,7 +3,7 @@ import "./Graph.css";
 import { hashToTree } from "./helpers";
 
 export const renderGraph = () => {
-  return dTree.init([hashToTree(4)], {
+  return dTree.init([hashToTree(5)], {
     target: "#graph",
     debug: true,
     height: 800,
