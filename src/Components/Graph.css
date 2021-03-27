@@ -9,12 +9,12 @@
 
 .linage {
   fill: none;
-  stroke: #000;
+  stroke: dimgray;
 }
 
 .marriage {
   fill: none;
-  stroke: black;
+  stroke: dimgray;
 }
 
 .man {
@@ -43,7 +43,7 @@
 }
 
 p {
-  padding: 0;
+  padding: 3px;
   margin: 0;
 }
 

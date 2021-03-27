@@ -8,15 +8,14 @@ export const renderGraph = () => {
     debug: true,
     height: 800,
     width: 1200,
+    nodeWidth: 110,
     callbacks: {
       nodeClick: function (name, extra) {
         console.log(name);
       },
       textRenderer: function (name, extra, textClass) {
-        // THis callback is optinal but can be used to customize
-        // how the text is rendered without having to rewrite the entire node
-        // from screatch.
-        if (extra && extra.nickname) name = name + " (" + extra.nickname + ")";
+        if (extra && extra.yearString)
+          name = name + " (" + extra.yearString + ")";
         return "<p align='center' class='" + textClass + "'>" + name + "</p>";
       },
       nodeRenderer: function (

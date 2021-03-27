@@ -3,7 +3,7 @@ export const data = {
     name: "Michael R.",
     class: "man",
     extra: {
-      nickname: "1955"
+      yearString: "1955"
     },
     marriages: [
       {
@@ -11,7 +11,7 @@ export const data = {
           name: "Nina R.",
           class: "woman",
           extra: {
-            nickname: "1955"
+            yearString: "1955"
           }
         },
         childrenIds: ["2", "3"]
@@ -21,11 +21,17 @@ export const data = {
   2: {
     name: "Tanya N.",
     class: "woman",
+    extra: {
+      yearString: "1981"
+    },
     marriages: [
       {
         spouse: {
           name: "David N.",
-          class: "man"
+          class: "man",
+          extra: {
+            yearString: "1984"
+          }
         },
         childrenIds: []
       }
@@ -34,6 +40,9 @@ export const data = {
   3: {
     name: "Sergey R.",
     class: "man",
+    extra: {
+      yearString: "1985"
+    },
     marriages: [
       {
         spouse: {
@@ -45,10 +54,10 @@ export const data = {
     ]
   },
   4: {
-    name: "Yekaterina R.",
+    name: "Yekaterina (Kreina) R.",
     class: "woman",
     extra: {
-      nickname: "1922"
+      yearString: "1922-1996"
     },
     marriages: [
       {
