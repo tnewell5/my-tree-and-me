@@ -32,10 +32,10 @@
 }
 
 .unknown {
-  background-color: ghostwhite;
-  border: 1px solid gray;
+  background-color: white;
+  /* border: 1px solid gray;
   border-radius: 5px;
-  box-sizing: border-box;
+  box-sizing: border-box; */
 }
 
 .emphasis {

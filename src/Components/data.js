@@ -62,7 +62,7 @@ export const data = {
     marriages: [
       {
         spouse: {
-          name: "n/a",
+          name: "",
           class: "unknown"
         },
         childrenIds: ["1"]
