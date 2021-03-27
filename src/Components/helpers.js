@@ -49,9 +49,7 @@ export const hashToTree = rootPersonId => {
   const person = data[rootPersonId];
 
   const tree = {
-    name: person.name,
-    class: person.class,
-    extra: person.extra,
+    ...person,
     marriages: person.marriages.map(marriage => {
       return {
         spouse: marriage.spouse,
@@ -62,6 +60,5 @@ export const hashToTree = rootPersonId => {
     })
   };
 
-  console.log("tree: ", tree);
   return tree;
 };
