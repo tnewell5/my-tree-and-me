@@ -47,7 +47,10 @@ export const data = {
       {
         spouse: {
           name: "Juliya S.",
-          class: "woman"
+          class: "woman",
+          extra: {
+            yearString: "1986"
+          }
         },
         childrenIds: []
       }
