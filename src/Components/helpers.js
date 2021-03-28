@@ -62,3 +62,13 @@ export const hashToTree = rootPersonId => {
 
   return tree;
 };
+
+const marriagesDataToJson = (marriages = []) => {
+  // console.log("marriages: ", JSON.stringify(marriages));
+  return JSON.stringify(marriages);
+};
+
+const personId = "Michael R.1955";
+// marriagesDataToJson(data[personId].marriages);
+
+// getAll();

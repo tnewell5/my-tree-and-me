@@ -1,5 +1,5 @@
 export const data = {
-  1: {
+  "Michael R.1955": {
     name: "Michael R.",
     class: "man",
     extra: {
@@ -14,11 +14,11 @@ export const data = {
             yearString: "1955"
           }
         },
-        childrenIds: ["2", "3"]
+        childrenIds: ["Tanya N.1981", "Sergey R.1985"]
       }
     ]
   },
-  2: {
+  "Tanya N.1981": {
     name: "Tanya N.",
     class: "woman",
     extra: {
@@ -37,7 +37,7 @@ export const data = {
       }
     ]
   },
-  3: {
+  "Sergey R.1985": {
     name: "Sergey R.",
     class: "man",
     extra: {
@@ -56,7 +56,7 @@ export const data = {
       }
     ]
   },
-  4: {
+  "Yekaterina (Kreina) R.1922-1996": {
     name: "Yekaterina (Kreina) R.",
     class: "woman",
     extra: {
@@ -68,11 +68,11 @@ export const data = {
           name: "",
           class: "unknown"
         },
-        childrenIds: ["1"]
+        childrenIds: ["Michael R.1955"]
       }
     ]
   },
-  5: {
+  "Ethel R.1883-1951": {
     name: "Ethel R.",
     class: "woman",
     extra: {
@@ -87,11 +87,16 @@ export const data = {
             yearString: "1880-1946"
           }
         },
-        childrenIds: ["6", "11", "4", "7"]
+        childrenIds: [
+          "Deborah R.1912-2005",
+          "Michael R.1916-1941",
+          "Yekaterina (Kreina) R.1922-1996",
+          "Mira R.1924-2008"
+        ]
       }
     ]
   },
-  6: {
+  "Deborah R.1912-2005": {
     name: "Deborah R.",
     class: "woman",
     extra: {
@@ -99,7 +104,7 @@ export const data = {
     },
     marriages: []
   },
-  7: {
+  "Mira R.1924-2008": {
     name: "Mira R.",
     class: "woman",
     extra: {
@@ -114,11 +119,15 @@ export const data = {
             yearString: "1924-1981"
           }
         },
-        childrenIds: ["8", "9", "10"]
+        childrenIds: [
+          "Michael M.1946-1997",
+          "Valentine M.1948-1998",
+          "Eduard M.1951"
+        ]
       }
     ]
   },
-  8: {
+  "Michael M.1946-1997": {
     name: "Michael M.",
     class: "man",
     extra: {
@@ -126,7 +135,7 @@ export const data = {
     },
     marriages: []
   },
-  9: {
+  "Valentine M.1948-1998": {
     name: "Valentine M.",
     class: "man",
     extra: {
@@ -134,7 +143,7 @@ export const data = {
     },
     marriages: []
   },
-  10: {
+  "Eduard M.1951": {
     name: "Eduard M.",
     class: "man",
     extra: {
@@ -142,7 +151,7 @@ export const data = {
     },
     marriages: []
   },
-  11: {
+  "Michael R.1916-1941": {
     name: "Michael R.",
     class: "man",
     extra: {
