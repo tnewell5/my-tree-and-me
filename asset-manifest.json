@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/my-tree-and-me/static/css/main.1ae92e31.chunk.css",
-    "main.js": "/my-tree-and-me/static/js/main.225d7f9a.chunk.js",
-    "main.js.map": "/my-tree-and-me/static/js/main.225d7f9a.chunk.js.map",
+    "main.css": "/my-tree-and-me/static/css/main.a36b0f3f.chunk.css",
+    "main.js": "/my-tree-and-me/static/js/main.cb56083d.chunk.js",
+    "main.js.map": "/my-tree-and-me/static/js/main.cb56083d.chunk.js.map",
     "runtime-main.js": "/my-tree-and-me/static/js/runtime-main.dd00b6c8.js",
     "runtime-main.js.map": "/my-tree-and-me/static/js/runtime-main.dd00b6c8.js.map",
     "index.html": "/my-tree-and-me/index.html",
-    "static/css/main.1ae92e31.chunk.css.map": "/my-tree-and-me/static/css/main.1ae92e31.chunk.css.map"
+    "static/css/main.a36b0f3f.chunk.css.map": "/my-tree-and-me/static/css/main.a36b0f3f.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.dd00b6c8.js",
-    "static/css/main.1ae92e31.chunk.css",
-    "static/js/main.225d7f9a.chunk.js"
+    "static/css/main.a36b0f3f.chunk.css",
+    "static/js/main.cb56083d.chunk.js"
   ]
 }
