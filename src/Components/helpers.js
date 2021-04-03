@@ -1,3 +1,4 @@
+import { getAllPeople } from "./api";
 import { data } from "./data";
 
 /*
@@ -72,3 +73,4 @@ const personId = "Michael R.1955";
 // marriagesDataToJson(data[personId].marriages);
 
 // getAll();
+getAllPeople();
