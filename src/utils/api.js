@@ -1,17 +1,5 @@
-// export const getAllPeople = () => {
-//   fetch("/all", {
-//     credentials: "include",
-//     headers: {
-//       "Content-Type": "application/json",
-//       "Access-Control-Allow-Credentials": true
-//     }
-//   })
-//     .then(response => response.json())
-//     .then(data => console.log(data));
-// };
-
 export const getAll = () => {
-  fetch("/people", {
+  return fetch("/people", {
     credentials: "include",
     headers: {
       "Content-Type": "application/json",
@@ -19,5 +7,27 @@ export const getAll = () => {
     }
   })
     .then(response => response.json())
-    .then(data => console.log(data));
+    .then(data => {
+      return data;
+    });
+};
+
+export const updatePerson = (id, data) => {
+  console.log("here data: ", data);
+  return fetch(`/people/${id}`, {
+    method: "PUT",
+    credentials: "include",
+    headers: {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Credentials": true
+    },
+    body: JSON.stringify(data)
+  })
+    .then(response => response.json())
+    .then(data => {
+      return data;
+    })
+    .catch(error => {
+      console.error("Error:", error);
+    });
 };

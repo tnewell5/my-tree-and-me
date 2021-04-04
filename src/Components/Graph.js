@@ -1,6 +1,15 @@
 import * as dTree from "d3-dtree";
 import "./Graph.css";
 import { hashToTree } from "../utils/helpers";
+import { getAll } from "../utils/api";
+
+getAll()
+  .then(data => {
+    console.log("getAll data: ", data);
+  })
+  .catch(e => {
+    console.error(e);
+  });
 
 export const renderGraph = () => {
   return dTree.init([hashToTree("Ethel R.1883-1951")], {

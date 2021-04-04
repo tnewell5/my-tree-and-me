@@ -1,4 +1,5 @@
-import { getAll } from "./api";
+import { updatePerson } from "./api";
+import { apiData } from "./api-data";
 import { data } from "./data";
 
 /*
@@ -65,11 +66,22 @@ export const hashToTree = rootPersonId => {
 };
 
 const marriagesDataToJson = (marriages = []) => {
-  // console.log("marriages: ", JSON.stringify(marriages));
   return JSON.stringify(marriages);
 };
 
-const personId = "Michael R.1955";
-// marriagesDataToJson(data[personId].marriages);
+/*
+const personId = "2";
 
-getAll();
+updatePerson(personId, {
+  name: apiData[personId].name,
+  lifespan: apiData[personId]?.extra?.lifespan,
+  marriages: marriagesDataToJson(apiData[personId].marriages)
+})
+  .then(data => {
+    console.log("updated data: ", data);
+  })
+  .catch(e => {
+    console.error(e);
+  });
+
+ */
