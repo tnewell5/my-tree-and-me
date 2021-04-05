@@ -1,4 +1,4 @@
-import { updatePerson } from "./api";
+import { createPerson, updatePerson } from "./api";
 import { apiData } from "./api-data";
 import { data } from "./data";
 
@@ -84,4 +84,20 @@ updatePerson(personId, {
     console.error(e);
   });
 
+
+const personId = 11;
+const body = {
+  name: apiData[personId].name,
+  stylingClass: apiData[personId].class,
+  lifespan: apiData[personId]?.extra?.lifespan,
+  marriages: marriagesDataToJson(apiData[personId].marriages)
+};
+
+createPerson(body)
+  .then(data => {
+    console.log("created data: ", data);
+  })
+  .catch(e => {
+    console.error(e);
+  });
  */

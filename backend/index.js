@@ -17,6 +17,7 @@ app.get("/", (request, response) => {
 
 app.get("/people", db.getPeople);
 app.put("/people/:id", db.updatePerson);
+app.post("/people", db.createPerson);
 
 app.listen(PORT, () => {
   console.log(`Example app listening at http://localhost:${PORT}`);

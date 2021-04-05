@@ -13,7 +13,6 @@ export const getAll = () => {
 };
 
 export const updatePerson = (id, data) => {
-  console.log("here data: ", data);
   return fetch(`/people/${id}`, {
     method: "PUT",
     credentials: "include",
@@ -29,5 +28,25 @@ export const updatePerson = (id, data) => {
     })
     .catch(error => {
       console.error("Error:", error);
+    });
+};
+
+export const createPerson = data => {
+  console.log("here data: ", data);
+  return fetch(`/people`, {
+    method: "POST",
+    credentials: "include",
+    headers: {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Credentials": true
+    },
+    body: JSON.stringify(data)
+  })
+    .then(response => response.json())
+    .then(data => {
+      return data;
+    })
+    .catch(error => {
+      console.error("Error: ", error);
     });
 };
